@@ -1,0 +1,108 @@
+{
+    "albums": [
+      {
+        "year": "2009",
+        "title": "Before the fire",
+        "cover": "before_fire.jpg",
+        "url": "https://itunes.apple.com/us/album/before-the-fire/318524340"
+      },
+      {
+        "year": "2011",
+        "title": "Pressure & Time",
+        "cover": "pressure_and_time.jpg",
+        "url": "https://itunes.apple.com/us/album/pressure-time-redux/510516925"
+      },
+      {
+        "year": "2012",
+        "title": "Head Down",
+        "cover": "head_down.jpg",
+        "url": "https://itunes.apple.com/us/album/head-down/537749361"
+      },
+      {
+        "year": "2014",
+        "title": "Great Western Valkyrie",
+        "cover": "great_western.jpg",
+        "url": "https://itunes.apple.com/us/album/great-western-valkyrie-tour-edition/1030891864"
+      },
+      {
+        "year": "2016",
+        "title": "Hollow Bones",
+        "cover": "hollow_bones.jpg",
+        "url": "https://itunes.apple.com/us/album/hollow-bones/1090120857"
+      },
+      {
+        "year": "2019",
+        "title": "Feral Roots",
+        "cover": "feral_roots.jpg",
+        "url": "https://itunes.apple.com/us/album/feral-roots/1440340685"
+      }
+    ],
+    "events": [
+      {
+        "date": "January 23",
+        "venue": "Pepsi stadium",
+        "location": "Portland",
+        "status": true
+      },
+      {
+        "date": "January 227",
+        "venue": "Madison Square Garden",
+        "location": "New York",
+        "status": true
+      },
+      {
+        "date": "February 5",
+        "venue": "Galaxy stadium",
+        "location": "Los angeles",
+        "status": false
+      },
+      {
+        "date": "March 10",
+        "venue": "Mongo studios",
+        "location": "Utah",
+        "status": true
+      },
+      {
+        "date": "March 20",
+        "venue": "Mxr arena",
+        "location": "Texas",
+        "status": true
+      },
+      {
+        "date": "April 15",
+        "venue": "Seymour Duncan",
+        "location": "Colorado",
+        "status": true
+      },
+      {
+        "date": "April 25",
+        "venue": "Layla Resort",
+        "location": "Montana",
+        "status": false
+      },
+      {
+        "date": "June 12",
+        "venue": "Rugby stadium",
+        "location": "Washington",
+        "status": true
+      },
+      {
+        "date": "June 19",
+        "venue": "M.Jackson airfield",
+        "location": "Iowa",
+        "status": false
+      },
+      {
+        "date": "July 10",
+        "venue": "Blues Brothers studios",
+        "location": "Florida",
+        "status": true
+      },
+      {
+        "date": "July 20",
+        "venue": "Monumental",
+        "location": "Michigan",
+        "status": true
+      }
+    ]
+}

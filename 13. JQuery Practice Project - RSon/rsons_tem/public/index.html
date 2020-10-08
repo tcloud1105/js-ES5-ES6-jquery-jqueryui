@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css" /><!--similar to bootstrap-->
+
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="js/slick.min.js"></script><!--carousel plugins-->
+    <script type="text/javascript" src="js/mmenu/jquery.mmenu.all.js"></script><!--menu plugins-->
+    <script src="https://unpkg.com/scrollreveal"></script><!--Jquery ScrollReveal Plugin-->
+
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="page">
+   <header class="header">
+      <nav id="menu">
+         <ul>
+             <li><a href="/">Home</a></li>
+             <li><a href="/gallery">Gallery</a></li>
+             <li><a href="/contact">Contact</a></li>
+         </ul>
+      </nav>
+
+      <a href="#menu"><i class="fas fa-bars"></i></a>
+      <div class="logo">TCLOUD</div>
+   </header>
+
+   <div class="home_carrousel">
+      <div class="slick_home">
+          <div class="home_carrousel_item">
+              <div
+              class="image"
+              style="background: url('images/bin/rival_sons_1.jpg')"
+              >
+
+              </div>
+              <div class="board">
+                  <div>
+                      <div class="tag red">New Album out now!!</div>
+                      <div class="tag dark_red">Hollow bones</div>
+                  </div>
+                  <div class="action_btn">
+                      <a href="#">Buy now</a>
+                  </div>
+              </div>
+          </div>
+          <div class="home_carrousel_item">
+            <div
+            class="image"
+            style="background: url('images/bin/rival_sons_2.jpg')"
+            >
+
+            </div>
+          </div>
+          <div class="home_carrousel_item">
+            <div
+            class="image"
+            style="background: url('images/bin/rival_sons_3.jpg')"
+            >
+
+            </div>
+          </div>
+      </div>
+      <div class="custom_prev">Previous |</div>
+      <div class="custom_next">Previous |</div>
+   </div>
+
+   <div class="container">
+      <!--ALBUMS-->
+      <div class="home_section home_albums">
+          <h3>Albums</h3>
+         <div class="home_albums_wrapper">
+            <ul class="home_albums_list wrap">
+              
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <!-- UPCOMING EVENTS -->
+   <div class="home_section home_upcoming">
+      <div class="container">
+         <h3>Upcoming Events</h3>
+         <div class="home_events_wrapper"></div>
+         <div class="home_events_load_more_wrapper">
+             <div class="btn">
+               LOAD MORE EVENTS
+             </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="home_section subscribe_widget">
+      
+   </div>
+
+   <footer>
+       <div class="logo">TCLOUD</div>
+   </footer>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      tc.slider();
+      tc.homeAlbums();
+      tc.homeLoadEvents();
+      tc.subscribeWidgetStart();
+  })
+</script>
+</body>
+
+</html>

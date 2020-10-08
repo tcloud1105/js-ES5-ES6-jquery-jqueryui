@@ -1,0 +1,272 @@
+{
+  "albums": [
+    {
+      "year": "2009",
+      "title": "Before the fire",
+      "cover": "before_fire.jpg",
+      "url": "https://itunes.apple.com/us/album/before-the-fire/318524340"
+    },
+    {
+      "year": "2011",
+      "title": "Pressure & Time",
+      "cover": "pressure_and_time.jpg",
+      "url": "https://itunes.apple.com/us/album/pressure-time-redux/510516925"
+    },
+    {
+      "year": "2012",
+      "title": "Head Down",
+      "cover": "head_down.jpg",
+      "url": "https://itunes.apple.com/us/album/head-down/537749361"
+    },
+    {
+      "year": "2014",
+      "title": "Great Western Valkyrie",
+      "cover": "great_western.jpg",
+      "url": "https://itunes.apple.com/us/album/great-western-valkyrie-tour-edition/1030891864"
+    },
+    {
+      "year": "2016",
+      "title": "Hollow Bones",
+      "cover": "hollow_bones.jpg",
+      "url": "https://itunes.apple.com/us/album/hollow-bones/1090120857"
+    },
+    {
+      "year": "2019",
+      "title": "Feral Roots",
+      "cover": "feral_roots.jpg",
+      "url": "https://itunes.apple.com/us/album/feral-roots/1440340685"
+    }
+  ],
+  "events": [
+    {
+      "date": "January 23",
+      "venue": "Pepsi stadium",
+      "location": "Portland",
+      "status": true
+    },
+    {
+      "date": "January 227",
+      "venue": "Madison Square Garden",
+      "location": "New York",
+      "status": true
+    },
+    {
+      "date": "February 5",
+      "venue": "Galaxy stadium",
+      "location": "Los angeles",
+      "status": false
+    },
+    {
+      "date": "March 10",
+      "venue": "Mongo studios",
+      "location": "Utah",
+      "status": true
+    },
+    {
+      "date": "March 20",
+      "venue": "Mxr arena",
+      "location": "Texas",
+      "status": true
+    },
+    {
+      "date": "April 15",
+      "venue": "Seymour Duncan",
+      "location": "Colorado",
+      "status": true
+    },
+    {
+      "date": "April 25",
+      "venue": "Layla Resort",
+      "location": "Montana",
+      "status": false
+    },
+    {
+      "date": "June 12",
+      "venue": "Rugby stadium",
+      "location": "Washington",
+      "status": true
+    },
+    {
+      "date": "June 19",
+      "venue": "M.Jackson airfield",
+      "location": "Iowa",
+      "status": false
+    },
+    {
+      "date": "July 10",
+      "venue": "Blues Brothers studios",
+      "location": "Florida",
+      "status": true
+    },
+    {
+      "date": "July 20",
+      "venue": "Monumental",
+      "location": "Michigan",
+      "status": true
+    }
+  ],
+  "email": [
+ 
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "location": "rival_sons_1.jpg",
+      "location_small": "rival_sons_1_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 2,
+      "location": "rival_sons_2.jpg",
+      "location_small": "rival_sons_2_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 3,
+      "location": "rival_sons_3.jpg",
+      "location_small": "rival_sons_3_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 4,
+      "location": "rival_sons_4.jpg",
+      "location_small": "rival_sons_4_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 5,
+      "location": "rival_sons_5.jpg",
+      "location_small": "rival_sons_5_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 6,
+      "location": "rival_sons_6.jpg",
+      "location_small": "rival_sons_6_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 7,
+      "location": "rival_sons_7.jpg",
+      "location_small": "rival_sons_7_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 8,
+      "location": "rival_sons_8.jpg",
+      "location_small": "rival_sons_8_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 9,
+      "location": "rival_sons_9.jpg",
+      "location_small": "rival_sons_9_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 10,
+      "location": "rival_sons_10.jpg",
+      "location_small": "rival_sons_10_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 11,
+      "location": "rival_sons_11.jpg",
+      "location_small": "rival_sons_11_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 12,
+      "location": "rival_sons_12.jpg",
+      "location_small": "rival_sons_12_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 13,
+      "location": "rival_sons_13.jpg",
+      "location_small": "rival_sons_13_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 14,
+      "location": "rival_sons_14.jpg",
+      "location_small": "rival_sons_14_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 15,
+      "location": "rival_sons_15.jpg",
+      "location_small": "rival_sons_15_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 16,
+      "location": "rival_sons_16.jpg",
+      "location_small": "rival_sons_16_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 17,
+      "location": "rival_sons_17.jpg",
+      "location_small": "rival_sons_17_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 18,
+      "location": "rival_sons_18.jpg",
+      "location_small": "rival_sons_18_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 19,
+      "location": "rival_sons_19.jpg",
+      "location_small": "rival_sons_19_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 20,
+      "location": "rival_sons_20.jpg",
+      "location_small": "rival_sons_20_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 21,
+      "location": "rival_sons_21.jpg",
+      "location_small": "rival_sons_21_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 22,
+      "location": "rival_sons_22.jpg",
+      "location_small": "rival_sons_22_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 23,
+      "location": "rival_sons_23.jpg",
+      "location_small": "rival_sons_23_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 24,
+      "location": "rival_sons_24.jpg",
+      "location_small": "rival_sons_24_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 25,
+      "location": "rival_sons_25.jpg",
+      "location_small": "rival_sons_25_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    },
+    {
+      "id": 26,
+      "location": "rival_sons_26.jpg",
+      "location_small": "rival_sons_26_small.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    }
+  ],
+  "contact": [
+  
+  ]
+}
