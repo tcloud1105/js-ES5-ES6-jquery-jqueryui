@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+        .product {
+            border: 1px solid #d2d2d2;
+            box-sizing: border-box;
+            padding:20px;
+            width:250px;
+            float:left;
+            margin:10px;
+        }
+        .product h1 {
+            margin: 0 0 10px;
+            color: #03A9F4;
+        }
+        .product span {
+            background: #F44336;
+            color: #fff;
+            padding: 5px;
+        }
+     </style>
+    <script src="main.js"></script>
+</head>
+<body>
+<!--FOREACH EXAMPLE TEMPLATE-->
+    <div class="product">
+        <h1>Name</h1>
+        <strong>Price: $ xxxx </strong>
+        <span>On sale !!</span>
+     </div>
+     
+<!--MAP EXAMPLE TEMPLATE-->
+     <select>
+         
+     </select>
+
+<!--FIND EXAMPLE TEMPLATE-->
+    <label>Price</label>
+    <select id='price'>
+        <option value="100">Less than 100</option>
+        <option value="300">Less than 300</option>
+        <option value="500">Less than 500</option>
+    </select>
+
+    <label>Type</label>
+    <select id='type'>
+        <option value="Sport Car">Sport Car</option>
+        <option value="Wagon">Wagon</option>
+        <option value="Urban">Urban</option>
+    </select>
+    <div class="search">Search</div>
+
+ <script type="text/javascript">
+       var products = [
+             {name:'Iphone',price:200},
+             {name:'Motorola',price:70},
+             {name:'Samsung',price:150},
+             {name:'Sony',price:98},
+             {name:'Windows pone',price:10}
+];
+     let template ='';
+    
+     message=''
+
+     products.forEach(function(product){
+         if(product.price < 100){
+            message = 'ON SALE'
+         }
+         template += `<div class="product">
+                        <h1>${product.name}</h1><strong>
+                         Price: $ ${product.price}</strong>
+                        <span>${message}</span>
+                     </div>`
+     })
+
+     document.body.insertAdjacentHTML('afterbegin',template);
+     </script>
+</body>
+</html>

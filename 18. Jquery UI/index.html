@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Coding Revolution</title>
+       <script src="js/jquery-3.2.1.min.js"></script>
+       <script src="js/jquery-ui.min.js"></script>
+
+       <link href="css/jquery-ui.min.css"/>
+       <link href="css/jquery-ui.theme.min.css"/>
+       <script src="main.js"></script>
+       <style>
+           .draggable{
+               width:100px;
+               height: 100px;
+               background:red;
+           }
+            
+            .droppabel{
+                width:100px;
+                height: 100px;
+                background:aqua;
+            }
+           .parent{
+               width:500px;
+               height: 500px;
+               background: blue;
+           }
+           .handle{
+               display: inline-block;
+               background: black;
+           }
+
+           .accepted{
+               background: green;
+           }
+
+           .resizable{
+               width:100px;
+               height:100px;
+               background: green;
+           }
+
+           .block{
+               width:300px;
+               height:300px;
+               background: red;
+           }
+
+           ul{
+               list-style-type: none;
+               padding: 0;
+               margin: 0;
+           }
+
+           .ui-selected{
+               background: green;
+           }
+
+           .button{
+               color:red;
+               background: blue;
+               font-size: 20px;
+               border: 1px solid black;
+               display: inline-block;
+               padding: 20px;
+           }
+
+           .otherclass{
+               color: green;
+               background: yellow;
+               font-size: 40px;
+               border: 4px solid black;
+               display: inline;
+               padding: 30px;
+           }
+       </style>
+    </head>
+    <body>
+    <!--DROPPABLE AND DRAGGABLE
+      <div class='parent'>
+         <div class='draggable'>
+             <div class="handle">x</div>
+            <p>drag me around</p>
+         </div>
+
+         <div class='draggable not_this'>
+           <p>drag me around</p>
+         </div>
+
+         <div class='droppable'>
+            <p>Drop here</p>
+         </div>
+      </div>
+      -->
+
+      <!--RESIZABLE
+      <div class="block">
+        <div class="resizable">
+            Resizable
+        </div>
+      </div>
+      -->
+
+      <!--SELECTABLE
+      <ul id='selectable'>
+          <li class="ui-widget-content">Item 1</li>
+          <li class="ui-widget-content">Item 2</li>
+          <li class="ui-widget-content available">Item 3</li>
+          <li class="ui-widget-content">Item 4</li>
+          <li class="ui-widget-content">Item 5</li>
+          <li class="ui-widget-content">Item 6</li>
+      </ul>
+       -->
+      <!--SORTABLE
+      <ul id='sortable'>
+            <li class="ui-state-default" id='1'>Item 1</li>
+            <li class="ui-state-default" id='2'>Item 2</li>
+            <li class="ui-state-default" id='3'>Item 3</li>
+            <li class="ui-state-default" id='4'>Item 4</li>
+            <li class="ui-state-default" id='5'>Item 5</li>
+            <li class="ui-state-default" id='6'>Item 6</li>
+        </ul>
+        <div class="trigger">
+            SAVE
+        </div>
+    -->
+
+    <!--ACCORDION
+    <div id='accordion'>
+      <h3>Title 1</h3>
+      <div>Content 1</div>
+
+      <h3>Title 2</h3>
+      <div>Content 2</div>
+
+      <h3>Title 3</h3>
+      <div>Content 3</div>
+
+      <h3>Title 4</h3>
+      <div>Content 4</div>
+    </div>
+    -->
+
+    <!--DATE PICKER
+    <p>Date: <input type="text" id='datepicker'/></p>
+    -->
+
+    <!--AUTOCOMPLETE
+    <div>
+        <label for="tags">Tags:</label>
+        <input id="tags" />
+    </div>
+    -->
+
+    <!--SLIDER
+    <div id="slider"></div>
+    -->
+    <div class="button"></div>
+    </body>
+</html>
