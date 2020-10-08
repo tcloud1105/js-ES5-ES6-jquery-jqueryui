@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Project One</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-xs-6 col-md-3 form-container">
+              <div id="myForm">
+                <h2>Add user:</h2>
+                 <div class="form-group">
+                   <label for="user_name">Name</label>
+                   <input type="text" class="form-control" id="user_name" placeholder="Enter your name" />
+                 </div>
+
+                 <div class="form-group">
+                    <label for="user_email">Email</label>
+                    <input type="email" class="form-control" id="user_email" placeholder="Enter your email" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="user_age">Age</label>
+                    <input type="text" class="form-control" id="user_age" placeholder="Enter your email" />
+                  </div>
+                  <p id='error'>Wrong!!! Something is wrong</p>
+                  <input type="submit" class="btn btn-block btn-primary" value="Add User"/>
+              </div>
+           </div>
+           <div class="col-xs-6 col-md-9 content-container">
+               <div class="row" id="parent_avatars">
+                   <div class="col-sm-4">
+                       <div class="card">
+                           <div class="card-delete" data-card="1">X</div>
+                           <div class="card-block">
+                               <h3 class="card-title">John Summer</h3>
+                               <p class="card-text">
+                                   <strong>Email</strong>:<span>Email@gmail.com</span>
+                               </p>
+                               <p class="card-text">
+                                <strong>Age</strong>:<span>26</span>
+                            </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
